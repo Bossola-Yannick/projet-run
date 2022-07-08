@@ -17,6 +17,7 @@ button {
   font-size: 0.75rem;
   font-weight: 400;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 button:hover {
   /* background: rgb(223, 223, 223); */
@@ -36,7 +37,7 @@ h3 {
 header {
   display: grid;
   grid-template-columns: 50% 50%;
-  height: 600px;
+  min-height: 600px;
   position: relative;
 }
 .header-left {
@@ -68,7 +69,6 @@ header:after {
 .article-top {
   display: grid;
   grid-template-columns: 35% 65%;
-  height: 300px;
   position: relative;
 }
 .article-top:after {
@@ -81,7 +81,6 @@ header:after {
 }
 .article-top-left {
   background: url(./assets/img/img-left.jpg) center/cover;
-  margin: 0 30px;
 }
 .article-top-right {
   display: flex;
@@ -93,7 +92,7 @@ header:after {
 .article-bottom {
   display: grid;
   grid-template-columns: 65% 35%;
-  height: 300px;
+  /* height: 300px; */
   position: relative;
 }
 .article-bottom:after {
@@ -113,7 +112,6 @@ header:after {
 }
 .article-bottom-right {
   background: url(./assets/img/img-right.jpg) center/cover;
-  margin: 0 30px;
 }
 .contact {
   padding-bottom: 30px;
@@ -238,8 +236,10 @@ a i {
   }
   .header-left {
     padding: 20px;
+    min-height: 300px;
   }
   .header-right {
+    min-height: 300px;
     width: 100%;
     margin: 10px 0px;
   }
@@ -249,7 +249,6 @@ a i {
   .article {
     display: flex;
     flex-direction: column;
-    height: 520px;
   }
   .article-top {
     display: block;

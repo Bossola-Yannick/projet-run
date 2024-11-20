@@ -9,7 +9,7 @@
 
 # Projet Run
 
-La réalstion du visuel, en HTML/CSS, à partir d'une maquette lors de mon apprentissage.
+La réalisation du visuel, en HTML/CSS, à partir d'une maquette lors de mon apprentissage.
 
 ----
 
